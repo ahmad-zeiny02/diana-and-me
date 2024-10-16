@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حبنا الأبدي</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('new-flower-background.jpg');
+            background-size: cover;
+            color: #800000;
+            direction: rtl;
+            text-align: right;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: rgba(241, 123, 123, 0.8);
+            padding: 20px;
+        }
+        header {
+            background: #ff6666;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ffcccc 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+        section {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .poem {
+            font-style: italic;
+            padding: 20px;
+            border-left: 3px solid #800000;
+            background: #ffe6e6;
+            margin-top: 20px;
+        }
+        .photos img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border: 5px solid #ff6666;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .flowers img {
+            width: 100px;
+            margin: 5px;
+            border: 2px solid #ff6666;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            background: #ff6666;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            background-color: #ff6666;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>حبنا الأبدي</h1>
+        </div>
+    </header>
+    <section class="container">
+        <h2>قصة حبنا</h2>
+        <p>بدأت قصتنا في مكان وزمان معينين، حينما تلاقت أعيننا لأول مرة، وشعرنا أن هناك قوة غير مرئية تجمعنا. مع مرور الأيام، تحول هذا الشعور إلى حب عميق وتفاهم لا يوصف. كلماتي لا يمكنها أن تصف مدى سعادتي عندما أكون معكِ، حبيبتي الغالية...</p>
+        
+        <h2>الصور</h2>
+        <div class="photos">
+            <img src="c:\Users\Student\Downloads\d6689242-0d5f-4543-b06f-30be75fbb339.jpg" alt="Love Photo 1">
+            <img src="c:\Users\Student\Downloads\8fb9ce2a-1aa5-4ed4-9db9-bfc78840b974.jpg" alt="Love Photo 3">
+            <img src="c:\Users\Student\Downloads\4ee1cb64-4e51-49fd-b783-cdc3882b801c.jpg" alt="Love Photo 2">
+
+        </div>
+        
+        <h2>رسالتي</h2>
+        <p>رسائل الحب والأمنيات من الأصدقاء والعائلة، تحمل كل منها أطيب التمنيات وأجمل العبارات لرحلة الحب التي تجمعنا. كل رسالة هي شهادة على الحب الذي يحمله كل منا تجاه الآخر...</p>
+        
+        <h2 class="poem">في عينيكِ أرى الأمل</h2>
+        <p class="poem">يا نجمة في سماء الليل، تضيء دربي<br>
+        عطر الورد في حديقتي، تبعث الفرح لقلبي<br>
+        ضحكتك نغمة تغني في ليالي السكون<br>
+        وملامحك حلم وردي يجسد أجمل الفنون</p>
+        <p class="poem">في عينيكِ أرى الأمل ومستقبل مشرق<br>
+        حبك لي نور، لا يخفى ولا يحجب<br>
+        أنظر إليكِ وأبتسم، كلما ذكرتكِ<br>
+        وقلبي يهمس "ستظل في قلبي ملهمتي"</p>
+        
+        <button onclick="showMessage()">اضغطي هنا للرسالة الخاصة</button>
+        <p id="specialMessage" style="display:none; font-weight:bold;">إلى حبيبتي الجميلة، أنتِ الضوء الذي ينير حياتي، والابتسامة التي تجعل أيامي مشرقة. بحبكِ تتلون حياتي بأجمل الألوان، وسأبقى دائمًا بجانبكِ لأجعلكِ أسعد إنسانة في الوجود. أحبكِ بكل ما فيّ من قلب وروح. أنتِ لي كل شيء، حياتي وروحي ومستقبلي.</p>
+        
+        <div class="flowers">
+            <img src="c:\Users\Student\Downloads\th (1).jpg" alt="Flower 1">
+            <img src="c:\Users\Student\Downloads\th.jpg" alt="Flower 2">
+            <img src="https://th.bing.com/th/id/R.dac5aba3fb84c9896b183cca2744f016?rik=hH26w%2fJ2gumlcA&pid=ImgRaw&r=0" alt="Flower 3">
+        </div>
+    </section>
+
+    <script>
+        function showMessage() {
+            document.getElementById("specialMessage").style.display = "block";
+        }
+    </script>
+</body>
+</html>
